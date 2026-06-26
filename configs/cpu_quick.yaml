@@ -1,0 +1,11 @@
+# Ultralytics YOLOv8-Seg CPU quick-start parameters.
+# Use this first to verify that Python, dependencies, and training all work.
+model: yolov8n-seg.pt
+data: coco8-seg.yaml
+epochs: 3
+imgsz: 416
+batch: 2
+workers: 0
+device: cpu
+project: D:/tuxiang/runs/segment
+name: cpu_quick_yolov8n_seg

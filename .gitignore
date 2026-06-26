@@ -1,0 +1,33 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Local environments
+.venv/
+venv/
+env/
+
+# Project-local tool/cache folders
+.codex/
+.agents/
+.vscode/
+
+# Datasets and raw downloads
+datasets/
+downloads/
+
+# Training and inference outputs
+runs/
+results/
+weights/
+
+# Model/export artifacts
+*.pt
+*.onnx
+*.engine
+*.torchscript
+*.tflite
+*.mlpackage
+
+# Ultralytics/cache files
+*.cache

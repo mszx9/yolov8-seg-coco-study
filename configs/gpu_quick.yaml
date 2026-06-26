@@ -1,0 +1,9 @@
+model: yolov8n-seg.pt
+data: coco8-seg.yaml
+epochs: 3
+imgsz: 512
+batch: 8
+workers: 4
+device: 0
+project: runs/segment
+name: gpu_quick_yolov8n_seg

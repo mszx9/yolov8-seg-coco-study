@@ -8,10 +8,11 @@ def main() -> None:
     parser.add_argument("--source", required=True, help="Image, folder, or video path.")
     parser.add_argument("--imgsz", type=int, default=512)
     parser.add_argument("--conf", type=float, default=0.25)
+    parser.add_argument("--device", default="0", help="Device for prediction, for example 0 or cpu.")
     args = parser.parse_args()
 
     model = YOLO(args.model)
-    model.predict(source=args.source, imgsz=args.imgsz, conf=args.conf, device="cpu", save=True)
+    model.predict(source=args.source, imgsz=args.imgsz, conf=args.conf, device=args.device, save=True)
 
 
 if __name__ == "__main__":

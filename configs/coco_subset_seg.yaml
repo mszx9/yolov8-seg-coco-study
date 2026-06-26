@@ -1,4 +1,4 @@
-path: D:/tuxiang/datasets/coco_subset_seg
+path: "D:/tuxiang GPU/datasets/coco_subset_seg"
 train: images/train
 val: images/val
 test: images/test

@@ -7,5 +7,5 @@ imgsz: 416
 batch: 2
 workers: 0
 device: cpu
-project: D:/tuxiang/runs/segment
+project: runs/segment
 name: cpu_quick_yolov8n_seg

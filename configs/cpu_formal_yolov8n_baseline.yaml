@@ -5,7 +5,7 @@ imgsz: 512
 batch: 2
 workers: 0
 device: cpu
-project: D:/tuxiang/runs/segment
+project: runs/segment
 name: yolov8n_cpu_baseline
 mosaic: 0.0
 mixup: 0.0
